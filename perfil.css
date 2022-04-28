@@ -1,0 +1,67 @@
+.w{
+  color: green;
+  font-size: 30px;
+}
+.f{
+  color: blue;
+  font-size: 30px;
+}
+body{
+    background: url(perfil.jpg);
+    color: white;
+    width: 1250px;
+}
+.teste{
+
+border: none;
+text-decoration: none;
+cursor: pointer;
+transition: background 1s;
+} 
+.teste:hover{
+background: #fff;
+color: #000000;
+} 
+.teste:active{
+color: #000000;
+background: rgb(71, 38, 102) ;
+transition: background 6s ;
+}
+nav{
+    display:block;
+    margin:4px;
+   padding: 20px 17px 13px 148px;
+  }
+  nav>a{
+   background:rgba(0,0,0, 0.50);
+   padding: 12px 90px 10px 70px;
+font-family: 'Courier New', Courier, monospace;
+   color: white;
+   text-decoration: none;
+  }
+ .cor{
+     color: #fff;
+ } 
+ 
+ @media( max-width: 600px){
+nav{
+    display:  inline-block;
+    
+   padding: 20px 17px 13px 0px;
+  }
+  nav>a{
+   background:rgba(0,0,0, 0.50);
+   padding: 5px 23px 10px 3px;
+font-family: 'Courier New', Courier, monospace;
+   color: white;
+   text-decoration: none;
+  }
+body{
+  width: 400px;
+  height: 150px;
+}
+h1,p{
+  font-size: 2.5vh;
+}
+
+ }
